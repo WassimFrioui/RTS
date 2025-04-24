@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTS - Naruto RP</title>
+    <link rel="icon" type="image/png" href="public/logo.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Jost:ital,wght@0,100..900;1,100..900&family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Jost:ital,wght@0,100..900;1,100..900&family=Kiwi+Maru&display=swap');
+
+        body {
+           /* font-family: 'Caveat Brush', cursive; */
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+
+
+    </style>
+</head>
+<body class="relative bg-black flex flex-col items-center justify-center w-full ">
+
+    <header class="relative bg-[#060606] my-12 rounded-xl text-white py-4 text-center w-full bg-red-900 h-72 flex items-center justify-center max-w-7xl p-8 bg-cover bg-center bg-no-repeat shadow-xl shadow-[#060606]" style="background-image: url('public/bg_store.png');">
+        <div class="absolute inset-0 bg-black opacity-[50%] rounded-xl"></div>
+        <div class="space-x-4 z-10">
+            <a href="steam://connect/95.156.225.18:27037" class="flex flex-row items-center justify-center space-x-4">
+                <div class="text-right">
+                    <h4 class="text-white text-lg font-bold uppercase">NARUTO-RP</h4>   
+                    <p class="text-gray-500 text-sm font-bold">Connectez-vous à notre serveur</p>
+                </div>
+                <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-12 rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+                    <span class="text-[#A11517] text-xl z-10"><i class="fa-solid fa-play"></i></i></span>
+                </div>
+            </a>
+        </div>
+        <a href="store.html" class="mx-auto mb-4 w-auto z-10">
+            <img src="public/logo.png" alt="Logo" class="mx-auto mb-4 w-auto h-32 z-10">
+        </a>
+        <div class="space-x-4 z-10">
+            <a href="https://discord.gg/t4pFcXMMz5" class="flex flex-row items-center justify-center space-x-4">
+                <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-12 rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+                    <span class="text-[#A11517] text-md z-10"><i class="fa-brands fa-discord"></i></span>
+                </div>
+                <div class="text-left">
+                    <h4 class="text-white text-lg font-bold uppercase">Notre Discord</h4>
+                    <p class="text-gray-500 text-sm font-bold">Rejoignez notre communauté</p>
+                </div>
+            </a>
+        </div>
+        <div class="absolute bottom-0 left-0 flex items-center justify-center w-full h-12 z-10 gap-8 px-8">
+
+            <a href="index.html" class="flex flex-row items-center justify-center space-x-4 w-1/4">
+                <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+                    <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-globe"></i></span>
+                </div>
+            </a>
+
+            <a href="https://discord.gg/t4pFcXMMz5" class="flex flex-row items-center justify-center space-x-4 w-1/4">
+                <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-105">
+                    <span class="text-[#A11517] text-md z-10"><i class="fa-brands fa-discord"></i></span>
+                </div>
+            </a>
+
+        </div>
+    </header>
+
+    <section class="bg-black text-white py-4 mb-12 text-center w-full max-w-7xl flex flex-col items-start justify-evenly space-x-8">
+        
+        <div class="flex flex-row w-full items-start justify-center space-x-8">
+            <div class="flex flex-col items-center justify-center w-1/3 gap-4">
+                <div class="animate__animated animate__pulse animate__slower animate__infinite flex flex-col items-center justify-center w-full p-4 bg-[#A11517] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                    <h1 class="text-2xl font-bold mb-4"><i class="fa-solid fa-triangle-exclamation"></i></h1>
+                    <p class="text-lg">A la suite de votre achat veuillez ouvrir un ticket sur notre discord pour recevoir votre commande !</p>
+                </div>
+
+                <div class=" flex flex-col items-center justify-center w-full p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                    <h1 class="text-2xl font-bold mb-4"><i class="fa-solid fa-medal"></i> Top donateur</h1>
+                    <p class="text-lg">A la suite de votre achat veuillez ouvrir un ticket sur notre discord pour recevoir votre commande !</p>
+                </div>
+
+            </div>
+    
+            <div class="flex flex-col items-center justify-center w-2/3 h-full gap-6">
+                
+                <div class="flex flex-col items-start justify-start w-full h-full p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950 space-y-12">
+                    <div class="flex flex-col items-start justify-start w-full h-1/2 shadow-xs shadow-white border-white border-b">
+                        <h1 class="text-md font-bold uppercase text-[#A11517]">Bienvenue sur</h1>
+                        <h1 class="text-xl font-italic font-bold mb-12">RTS - Naruto RP</h1>
+                    </div>
+    
+                    <div class="flex flex-col items-center justify-center w-full h-2/3 p-4">
+                        <p class="text-sm">En visitant cette boutique, vous avez la possibilité d’acquérir divers objets conçus pour <span class="text-[#A11517]">enrichir votre expérience de jeu</span> sur les serveurs de la communauté RST. Il est essentiel de préciser que les revenus générés ici contribueront principalement au développement continu de nos serveurs et à la prise en charge des coûts liés à leur maintenance.
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-start justify-start w-full h-full p-4  bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950 space-y-12">
+                    <div class="flex flex-col items-center justify-center w-full h-1/2 shadow-xs shadow-white">
+                        <h1 class="text-3xl font-bold mb-4">Questions fréquentes</h1>
+                        <p class="text-gray-500 text-sm font-bold">Vous avez des questions ? Nous avons les réponses !</p>
+                    </div>
+    
+                    <div class="flex flex-col items-center justify-center w-full h-2/3 p-4">
+                        <div class="w-full space-y-4">
+                            <div class="bg-black text-white rounded-lg shadow-xs shadow-white border border-zinc-950">
+                                <button class="w-full text-left py-4 px-6 text-lg font-bold text-white flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                                    Qu'est-ce que RTS - Naruto RP ?
+                                    <span class="text-[#A11517]"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <div class="hidden px-6 py-4 text-gray-400">
+                                    RTS - Naruto RP est un serveur de jeu basé sur l'univers de Naruto, offrant une expérience immersive et unique.
+                                </div>
+                            </div>
+                            <div class="bg-black text-white rounded-lg shadow-xs shadow-white border border-zinc-950">
+                                <button class="w-full text-left py-4 px-6 text-lg font-bold text-white flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                                    Comment puis-je soutenir le serveur ?
+                                    <span class="text-[#A11517]"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <div class="hidden px-6 py-4 text-gray-400">
+                                    Vous pouvez soutenir le serveur en achetant des objets dans notre boutique ou en faisant un don.
+                                </div>
+                            </div>
+                            <div class="bg-black text-white rounded-lg shadow-xs shadow-white border border-zinc-950">
+                                <button class="w-full text-left py-4 px-6 text-lg font-bold text-white flex justify-between items-center focus:outline-none" onclick="toggleAccordion(this)">
+                                    Les achats donnent-ils un avantage en jeu ?
+                                    <span class="text-[#A11517]"><i class="fa-solid fa-chevron-down"></i></span>
+                                </button>
+                                <div class="hidden px-6 py-4 text-gray-400">
+                                    Les objets achetés sont conçus pour enrichir l'expérience de jeu sans déséquilibrer le gameplay.
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function toggleAccordion(button) {
+                                const content = button.nextElementSibling;
+                                const icon = button.querySelector('i');
+                                if (content.classList.contains('hidden')) {
+                                    content.classList.remove('hidden');
+                                    icon.classList.remove('fa-chevron-down');
+                                    icon.classList.add('fa-chevron-up');
+                                } else {
+                                    content.classList.add('hidden');
+                                    icon.classList.remove('fa-chevron-up');
+                                    icon.classList.add('fa-chevron-down');
+                                }
+                            }
+                        </script>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="text-white py-4 text-center w-full h-auto max-w-7xl flex flex-col items-start justify-evenly mb-12">
+        <div class="p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950 text-white py-4 text-center w-full h-36 max-w-7xl flex flex-col items-center justify-center">
+            <h1 class="text-3xl font-bold mb-4">Premium</h1>
+            <p class="text-lg">Découvrez nos offres premium et améliorez votre expérience de jeu !</p>
+        </div>
+
+        <div class="flex flex-row items-center justify-center w-full h-auto gap-8 mt-8">
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/1.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">9.99 eur</h1>
+                    <button onclick="addToCart('1 mois de premium', 9.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 1 mois de premium</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Accès à des zones exclusives</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Objets exclusifs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/2.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">24.99 eur</h1>
+                    <button onclick="addToCart('3 mois de premium', 24.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 3 mois de premium</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Accès à des zones exclusives</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Objets exclusifs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/3.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">39.99 eur</h1>
+                    <button onclick="addToCart('5 mois de premium',39.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 5 mois de premium</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Accès à des zones exclusives</li>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> Objets exclusifs</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="text-white py-4 text-center w-full h-auto max-w-7xl flex flex-col items-start justify-evenly mb-12">
+        <div class="p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950 text-white py-4 text-center w-full h-36 max-w-7xl flex flex-col items-center justify-center">
+            <h1 class="text-3xl font-bold mb-4">Rerolls</h1>
+            <p class="text-lg">Découvrez nos offres de rerolls et améliorez votre expérience de jeu !</p>
+        </div>
+
+        <div class="flex flex-row items-center justify-center w-full h-auto gap-8 mt-8">
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/4.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">1.20 eur</h1>
+                    <button onclick="addToCart('1 reroll', 1.20)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 1 reroll</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/5.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">5.50 eur</h1>
+                    <button onclick="addToCart('5 rerolls', 5.50)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 5 rerolls</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/6.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">9.99 eur</h1>
+                    <button onclick="addToCart('10 rerolls', 9.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 10 rerolls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex flex-row items-center justify-center w-full h-auto gap-8 mt-8">
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/7.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">24.99 eur</h1>
+                    <button onclick="addToCart('30 reroll', 24.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 30 rerolls</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/8.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">44.99 eur</h1>
+                    <button onclick="addToCart('50 rerolls', 44.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 50 rerolls</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-1/3 h-auto gap-4 p-4 bg-[#060606] rounded-lg shadow-xs shadow-white border border-zinc-950">
+                <img src="public/store/9.png" alt="Image de l'offre 1" class="w-full h-auto rounded-lg mb-4 bg-black">
+                <div class="flex flex-col items-start jusctify-center w-full h-auto text-left gap-4">
+                    <h1 class="text-xl font-bold uppercase">89.99 eur</h1>
+                    <button onclick="addToCart('100 rerolls', 89.99)" class="flex flex-row items-center justify-center space-x-4 w-full">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-full rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform ">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping mr-4"></i> Ajouter au panier</span>
+                        </div>
+                    </button>
+                    <ul>
+                        <li class="text-gray-500 text-sm font-bold"><i class="fa-solid fa-check"></i> 100 rerolls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-black text-white py-4 text-center">
+        <p>&copy; 2025 RTS - Serveur GMOD Naruto RP. Tous droits réservés.</p>
+        <a href="https://discord.gg/t4pFcXMMz5" class="text-[#A11517]"><i class="fa-brands fa-discord"></i></a>
+    </footer>
+
+    <a  onclick="toggleCartPopup()" class="fixed cursor-pointer bottom-6 right-6 flex flex-row items-center justify-center space-x-4">
+        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-12 rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-125">
+            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-cart-shopping"></i></span>
+        </div>
+    </a>
+
+    <!--Pop Up-->
+    <div id="cartPopup" class="fixed right-0 top-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="relative bg-[#060606] p-6 rounded-lg shadow-lg h-screen w-[60vh] text-white">
+            <div class="flex items-center flex-row justify-between mb-4">
+                <h1 class="text-3xl font-bold">Panier</h1>
+                <button onclick="toggleCartPopup()" class="text-[#A11517] text-xl px-4 py-2 rounded-lg hover:text-white hover:bg-[#A11517] transition duration-300 ease-in-out transform hover:scale-105">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+
+            </div>
+            <h2 class="text-2xl font-bold mb-4">Votre Panier</h2>
+
+            <ul id="cartItems" class="space-y-2"></ul>
+            <div class="absolute bottom-6 left-6 flex flex-col items-start justify-start w-full h-auto ">
+                <div class="mt-4">
+                    <p class="text-lg font-bold">Total: <span id="cartTotal">0.00</span> EUR</p>
+                </div>
+                <div class="flex justify-between gap-8 mt-6 w-auto">
+                    <a href="#" onclick="clearCart()" class="flex flex-row items-center justify-center space-x-4">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold h-12 w-12 rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-125">
+                            <span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-trash-can"></i></span>
+                        </div>
+                    </a>
+                    <a href="#" onclick="checkout()" class="flex flex-row items-center justify-center space-x-4">
+                        <div class="border border-[#A11517] bg-[#A11517]/20 backdrop-blur-md hover:bg-[#A11517]/30 text-white font-bold px-4 h-12 w-auto rounded-xl flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-125">
+                            <span class="text-[#A11517] text-md z-10">Passer à la caisse</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let cart = [];
+
+        function addToCart(item, price) {
+            const existingItem = cart.find(cartItem => cartItem.item === item);
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({ item, price, quantity: 1 });
+            }
+            const popup = document.getElementById('cartPopup');
+
+            if (!popup.classList.contains('hidden')) {
+                popup.classList.remove('hidden');
+            }else {
+                toggleCartPopup()
+            }
+
+            updateCart();
+        }
+
+        function toggleCartPopup() {
+            const popup = document.getElementById('cartPopup');
+            popup.classList.toggle('hidden');
+            
+        }
+
+        function updateCart() {
+            const cartItems = document.getElementById('cartItems');
+            const cartTotal = document.getElementById('cartTotal');
+            cartItems.innerHTML = '';
+            let total = 0;
+            cart.forEach(({ item, price, quantity }) => {
+                const li = document.createElement('li');
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'text-black bg-red w-8 text-center';
+                input.value = quantity;
+                input.onchange = (e) => {
+                    const newQuantity = parseInt(e.target.value, 10);
+                    if (!isNaN(newQuantity) && newQuantity > 0) {
+                        const cartItem = cart.find(cartItem => cartItem.item === item);
+                        cartItem.quantity = newQuantity;
+                        updateCart();
+                    }
+                };
+                li.className = 'bg-black p-4 py-2 rounded-lg border border-white shadow-xs shadow-white';
+                li.textContent = `${item} - ${price.toFixed(2)} EUR x `;
+                li.appendChild(input);
+                const removeButton = document.createElement('button');
+                removeButton.innerHTML = '<span class="text-[#A11517] text-md z-10"><i class="fa-solid fa-trash-can"></i></span>';
+                removeButton.className = 'text-red-500 ml-4';
+                removeButton.onclick = () => {
+                    cart = cart.filter(cartItem => cartItem.item !== item);
+                    updateCart();
+                };
+                li.appendChild(removeButton);
+                li.classList.add('flex', 'justify-between', 'items-center');
+                cartItems.appendChild(li);
+                total += price * quantity;
+            });
+            cartTotal.textContent = total.toFixed(2);
+        }
+
+        function clearCart() {
+            cart = [];
+            updateCart();
+        }
+
+        function checkout() {
+            if (cart.length === 0) {
+                alert('Votre panier est vide.');
+                return;
+            }
+            const total = cart.reduce((sum, { price, quantity }) => sum + price * quantity, 0).toFixed(2);
+            window.location.href = 'https://paypal.me/HaileyDoukaini/' + total;
+            cart = [];
+            updateCart();
+            toggleCartPopup();
+        }
+    </script>
